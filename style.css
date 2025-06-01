@@ -1,0 +1,130 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  text-align: center;
+  color: #333;
+  padding-top: 50px;
+}
+
+.top-bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.top-bar select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.workdays-display {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 16px;
+  background: rgba(255,255,255,0.7);
+  padding: 5px 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container select,
+.input-container input {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.button-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background: #ff7675;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.button-container button:hover {
+  transform: scale(1.1);
+}
+
+.fish-button-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: inline-block;
+  background: #333;
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 105%;
+  font-size: 12px;
+}
+
+.fish-button-wrapper:hover .tooltip-text {
+  visibility: visible;
+}
+
+.reset-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.reset-button:hover {
+  transform: scale(1.1);
+}
+
+#output p {
+  font-size: 20px;
+  margin: 10px 0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tax Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <select id="languageSelect">
+      <option value="en">English</option>
+      <option value="zh">中文</option>
+    </select>
+    <select id="currencySelect">
+      <option value="EUR">EUR</option>
+      <option value="USD">USD</option>
+      <option value="CNY">CNY</option>
+      <option value="GBP">GBP</option>
+      <option value="CAD">CAD</option>
+      <option value="AUD">AUD</option>
+    </select>
+  </div>
+
+  <h1 id="title">Tax Timer</h1>
+
+  <div id="workdaysDisplay" class="workdays-display">You need to work 0 days this month</div>
+
+  <div class="input-container">
+    <select id="countrySelect"></select>
+    <input type="number" id="salary" placeholder="Monthly Net Salary">
+  </div>
+
+  <div class="button-container">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Finish Work</button>
+    <div class="fish-button-wrapper">
+      <button id="fishBtn">🐟 Fish</button>
+      <span class="tooltip" id="fishTooltip">?</span>
+      <div class="tooltip-text" id="fishTooltipText">Fishing once gives you 5 minutes of salary. Fish more, earn more!</div>
+    </div>
+  </div>
+
+  <button id="resetBtn" class="reset-button">Reset</button>
+
+  <div id="output">
+    <p id="hourlyLabel">Hourly Wage: <span id="hourlyWage">0</span></p>
+    <p id="earnedLabel">Today's Earnings: <span id="earned">0</span></p>
+    <p id="fishLabel">Today's Fish Earnings: <span id="fishEarnings">0</span></p>
+    <p id="timerLabel">Work Time: <span id="timer">00:00:00</span></p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
