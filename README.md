@@ -10,15 +10,15 @@ It also has a "Fish" button — each click adds 5 minutes worth of salary!
 
 ## 🌍 功能 / Features
 ✅ 输入月薪（税后）  
-Enter your monthly net salary 
-✅ 选择国家，自动根据节假日和周末计算本月工作日数  
-Select your country – automatically calculates workdays based on weekends and holidays
-✅ 选择不同货币（CNY, USD, EUR, GBP, CAD, AUD）  
-Choose different currencies (CNY, USD, EUR, GBP, CAD, AUD)
-✅ 显示时薪、今日已赚、摸鱼已赚金额、上班时长  
-Displays hourly wage, today's earnings, fish earnings, and work time
-✅ 英文 / 中文界面切换  
-Switch between English and Chinese interfaces  
+Enter your monthly net salary   
+✅ 选择国家，自动根据节假日和周末计算本月工作日数    
+Select your country – automatically calculates workdays based on weekends and holidays  
+✅ 选择不同货币（CNY, USD, EUR, GBP, CAD, AUD）    
+Choose different currencies (CNY, USD, EUR, GBP, CAD, AUD)  
+✅ 显示时薪、今日已赚、摸鱼已赚金额、上班时长    
+Displays hourly wage, today's earnings, fish earnings, and work time  
+✅ 英文 / 中文界面切换    
+Switch between English and Chinese interfaces    
 
 ---
 
